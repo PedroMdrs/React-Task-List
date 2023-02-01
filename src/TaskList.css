@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    /* overflow: hidden; */
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+form input {
+    font-size: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+form button {
+    width: 50px;
+    height: 30px;
+    border: black solid 1px;
+    font-size: 20px;
+    background-color: rgb(44, 160, 255);
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+form button:hover {
+    border: black solid 1px;
+    font-size: 20px;
+    color: rgb(44, 160, 255);
+    ;
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    margin-bottom: 20px;
+    max-width: 100%;
+    /* overflow: hidden; */
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.226);
+
+}
+
+ul {
+    list-style: none;
+}
+
+li .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    height: 40px;
+
+}
+
+ul button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: none;
+    border: none;
+
+}
+
+button:first-child img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button:nth-child(2) img {
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+
+
+li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.done {
+    text-decoration: line-through;
+}
